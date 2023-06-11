@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../happy_childhood_ui.dart';
+import 'package:happy_childhood_ui/src/theme/app_colors.dart';
 
 class HCTextLogo extends StatelessWidget {
   const HCTextLogo({Key? key}) : super(key: key);
