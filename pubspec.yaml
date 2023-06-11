@@ -14,3 +14,12 @@ dependencies:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+flutter:
+  fonts:
+    - family: Balyona
+      fonts:
+        - asset: fonts/Balyona.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf

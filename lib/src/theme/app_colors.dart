@@ -14,4 +14,7 @@ class AppColors {
   static const Color macawBlueGreen = Color(0xFF42C0B2);
   static const Color gableGreen = Color(0xFF1B3335);
   static const Color dark = Color(0xFF1B2629);
+
+  static Color get fern  => const Color.fromRGBO(95, 180, 113, 1);
+  static Color get fadedJade => const Color.fromRGBO(59, 113, 134, 1);
 }
