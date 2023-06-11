@@ -13,9 +13,25 @@ class TextStyles {
     color: AppColors.fadedJade,
     fontSize: 18,
   );
+  static  TextStyle blueBold18 = TextStyle(
+    color: AppColors.fadedJade,
+    fontSize: 18,
+    fontWeight: FontWeight.w600,
+  );
+
   static const TextStyle whiteRegular20 = TextStyle(
     color: AppColors.white,
     fontSize: 20,
+  );
+
+  static const TextStyle blueRegular20 = TextStyle(
+    color: AppColors.fadedJade,
+    fontSize: 20,
+  );
+
+  static const TextStyle blueRegular22 = TextStyle(
+    color: AppColors.fadedJade,
+    fontSize: 22,
   );
 
   static const TextStyle whiteRegular22 = TextStyle(
