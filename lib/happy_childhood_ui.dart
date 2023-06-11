@@ -6,6 +6,7 @@ export 'src/widgets/favorite_button_widget.dart';
 export 'src/widgets/gradient_app_bar_widget.dart';
 export 'src/widgets/gradient_background_widget.dart';
 export 'src/widgets/loader_widget.dart';
+export 'src/widgets/web_loader.dart';
 export 'src/widgets/platform_resolver_widget.dart';
 export 'src/widgets/icon_text_placeholder_widget.dart';
 export 'src/widgets/login/login_field.dart';
@@ -18,6 +19,3 @@ export 'src/widgets/sliver_refresh_indicator_widget.dart';
 export 'src/widgets/buttons/hc_action_button.dart';
 export 'src/widgets/input/hc_text_input.dart';
 export 'src/widgets/input/hc_text_logo.dart';
-
-
-
