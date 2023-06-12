@@ -9,10 +9,17 @@ class TextStyles {
     color: AppColors.white,
     fontSize: 18,
   );
+
+  static  TextStyle blueRegular16 = TextStyle(
+    color: AppColors.fadedJade,
+    fontSize: 16,
+  );
+
   static  TextStyle blueRegular18 = TextStyle(
     color: AppColors.fadedJade,
     fontSize: 18,
   );
+
   static  TextStyle blueBold18 = TextStyle(
     color: AppColors.fadedJade,
     fontSize: 18,
