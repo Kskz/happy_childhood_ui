@@ -20,3 +20,4 @@ export 'src/widgets/input/hc_text_input.dart';
 export 'src/widgets/hc_text_logo.dart';
 export 'src/widgets/result/something_went_wrong.dart';
 export 'src/widgets/buttons/small_button.dart';
+export 'src/widgets/hc_divider.dart';
