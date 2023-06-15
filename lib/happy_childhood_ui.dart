@@ -19,3 +19,4 @@ export 'src/widgets/sliver_refresh_indicator_widget.dart';
 export 'src/widgets/buttons/hc_action_button.dart';
 export 'src/widgets/input/hc_text_input.dart';
 export 'src/widgets/input/hc_text_logo.dart';
+export 'src/widgets/result/something_went_wrong.dart';

@@ -4,7 +4,7 @@ import 'package:happy_childhood_ui/src/theme/app_colors.dart';
 import 'package:happy_childhood_ui/src/widgets/platform_resolver_widget.dart';
 
 class Loader extends StatelessWidget {
-  const Loader({super.key, this.size = 50});
+  const Loader({super.key, this.size = 60});
 
   final double size;
 
@@ -12,7 +12,7 @@ class Loader extends StatelessWidget {
   Widget build(BuildContext context) => Center(
         child: PlatformResolver(
           ios: CupertinoActivityIndicator(
-            color: AppColors.white,
+            color: AppColors.fadedJade,
             radius: size / 2,
           ),
           android: SizedBox(
