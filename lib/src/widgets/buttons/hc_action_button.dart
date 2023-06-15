@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:happy_childhood_ui/src/theme/app_colors.dart';
 
-import '../../../happy_childhood_ui.dart';
 
 class HCActionButton extends StatelessWidget {
   final void Function(BuildContext context)? onPress;
