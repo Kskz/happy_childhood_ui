@@ -7,14 +7,17 @@ import '../../theme/my_flutter_app_icons.dart';
 enum IconType { password, child }
 
 class HCTextInput extends StatelessWidget {
-  final iconType;
-  final hintText;
 
   const HCTextInput({
     Key? key,
     required this.iconType,
     required this.hintText,
+    this.controller,
   }) : super(key: key);
+
+  final IconType iconType;
+  final String hintText;
+  final TextEditingController? controller;
 
   @override
   Widget build(BuildContext context) {
@@ -32,6 +35,7 @@ class HCTextInput extends StatelessWidget {
       height: 55,
       width: 350,
       child: TextField(
+        controller: controller,
         style: TextStyle(color: AppColors.fadedJade), //<-- SEE HERE,
         decoration: InputDecoration(
           labelText: hintText,
