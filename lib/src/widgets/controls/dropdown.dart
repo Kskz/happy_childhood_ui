@@ -14,7 +14,7 @@ class DropDown<T> extends StatefulWidget {
     this.height,
   }) : super(key: key);
 
-  final String hint;
+  final Widget hint;
   final List<DropdownMenuItem<T>> items;
   final void Function(T) onChanged;
   final T selectedValue;
@@ -43,7 +43,7 @@ class _DropDownState<T> extends State<DropDown<T>> {
       width: widget.width,
       child: DropdownButton2<T>(
         isExpanded: widget.isExpended,
-        hint: Text('Select Item'),
+        hint: widget.hint,
         style: widget.textStyle,
         value: selectedValue,
         onChanged: (value) {
