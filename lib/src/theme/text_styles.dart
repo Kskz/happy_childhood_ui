@@ -5,6 +5,12 @@ import '../../happy_childhood_ui.dart';
 class TextStyles {
   const TextStyles._();
 
+  static TextStyle labelTextStyle = const TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+    color: AppColors.deepGray,
+  );
+
   static const TextStyle helloStyle = TextStyle(
     fontSize: 25,
     fontWeight: FontWeight.bold,
