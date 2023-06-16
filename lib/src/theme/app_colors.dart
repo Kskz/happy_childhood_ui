@@ -16,4 +16,6 @@ class AppColors {
   static const Color purple= Color.fromRGBO(160, 168, 215, 1);
   static const Color chetWodBlue= Color.fromRGBO(95, 107, 186, 1);
   static const Color endeavour = Color.fromRGBO(44, 86, 160, 1);
+  static Color get cultured => const Color.fromRGBO(247,247,248,1); //color of list items liter
+
 }
