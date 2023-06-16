@@ -8,6 +8,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  dropdown_button2: ^2.1.3
   flutter:
     sdk: flutter
 
