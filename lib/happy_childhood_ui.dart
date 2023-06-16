@@ -14,6 +14,7 @@ export 'src/widgets/login/login_submit_button.dart';
 export 'src/widgets/buttons/round_button.dart';
 export 'src/widgets/controls/switcher.dart';
 export 'src/widgets/controls/toggle.dart';
+export 'src/widgets/controls/dropdown.dart';
 export 'src/widgets/sliver_refresh_indicator_widget.dart';
 export 'src/widgets/buttons/hc_action_button.dart';
 export 'src/widgets/input/hc_text_input.dart';
