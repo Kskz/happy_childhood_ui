@@ -11,7 +11,7 @@ class DropDown<T> extends StatefulWidget {
     required this.textStyle,
     this.isExpended = false,
     this.width,
-    this.height,
+    this.height, this.customButton, this.underline,
   }) : super(key: key);
 
   final Widget hint;
@@ -22,6 +22,8 @@ class DropDown<T> extends StatefulWidget {
   final bool isExpended;
   final double? width;
   final double? height;
+  final Widget? customButton;
+  final Widget? underline;
 
   @override
   State<DropDown<T>> createState() => _DropDownState<T>();
@@ -46,6 +48,8 @@ class _DropDownState<T> extends State<DropDown<T>> {
         hint: widget.hint,
         style: widget.textStyle,
         value: selectedValue,
+        customButton: widget.customButton,
+        underline: widget.underline,
         onChanged: (value) {
           if (value != null) {
             setState(() {
